@@ -1,0 +1,46 @@
+.dthjms {
+  width: 340px;
+  padding: 40px;
+  background-color: #0a0a0a;
+  margin: 0 auto;
+  padding-bottom: 22px;
+}
+.ttljms {
+  font-family: "Fira Sans",;
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: -1px;
+  color: #bcbcbc;
+  text-transform: uppercase;
+  padding-top: 18px;
+}
+.sbttljms {
+  font: "Spartan";
+  text-align: center;
+  font-size: 7.5px;
+  letter-spacing: 2px;
+  color: #8a8a8a;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.cntntjms {
+  font: 12px "Arial", sans-serif;
+  text-align: justify;
+  padding: 14px;
+  color: #bcbcbc;
+  background-color: #0a0a0a;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.cntntjms b {
+  font-weight: bold; 
+  color: #573857!important;
+}
+.brdrjms {
+  border: 2px solid #573857;
+  border-bottom: 25px;
+  width: 415px;
+  margin-left: -39px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
