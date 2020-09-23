@@ -1,0 +1,36 @@
+.fndeire {
+  width: 340px;
+  padding: 40px;
+  background-color: #0a0a0a;
+  margin: 0 auto;
+}
+.emntitle {
+  font-family: "Raustila Regular";
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0px;
+  text-transform: lowercase;
+  font-weight: 400;
+  color: #b5b5b5;
+  padding-top: 23px;
+}
+.esbtitle {
+  font: "Calibri";
+  text-align: center;
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: #a2a2a2;
+  text-transform: uppercase;
+  margin-top: 13px;
+}
+.etxt {
+  font: 12px 'Arial', sans-serif;
+  text-align: justify;
+  padding: 12px;
+  color: #b5b5b5;
+  background-color: #0a0a0a;
+  margin-top: 18px;
+}
+.etxt strong {
+  color: #7a9ba1 !important;
+}
