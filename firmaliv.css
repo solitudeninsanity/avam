@@ -1,0 +1,31 @@
+#livbase {
+  outline-offset: -11px; 
+  outline: 2px solid #5e1c1c; 
+  width: 280px; 
+  height: 200px; 
+  border: 10px solid #0a0a0a; 
+  margin: auto;
+} 
+.livxh {
+  line-height: 25px; 
+  font-size: 28px; 
+  text-align: center; 
+  font-weight: 700; 
+  color:#dbdbdb; 
+  font-family: arial; 
+  text-shadow: 3px 1px 1px #5e1c1c; 
+  letter-spacing: -2px; 
+  margin: 55px 0px 0px 168px;
+} 
+.livtxt {
+  width: 80px; 
+  font-family: calibri; 
+  font-size: 7px; 
+  color: #5e1c1c; 
+  text-align: right; 
+  text-transform: uppercase; 
+  letter-spacing: 0px; 
+  margin: 5px 0px 0px 185px; 
+  line-height: 8px; 
+  font-weight: 500;
+}
