@@ -1,3 +1,4 @@
+
 #hadita {
   width:300px;
   height:230px;
@@ -28,7 +29,7 @@ font-family: Raustila Regular;
   font-family:calibri;
   text-transform:uppercase;
   color:#f1f1f1;
-  width:130px;
+  width:80px;
   margin:auto;
   text-align:justify;
   letter-spacing:1px;
@@ -39,7 +40,7 @@ font-family: Raustila Regular;
 #hadita:hover .t-eire {
   font-size:8px;
  transition: 0.5s;
-  
+  width:130px;
    -webkit-animation: swing 1s ease;
         animation: swing 1s ease;
         -webkit-animation-iteration-count: 1;
