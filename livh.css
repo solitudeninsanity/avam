@@ -5,7 +5,7 @@
   border: 1px solid #0f0f0f;
   margin: 0 auto;
 }
-.ttllv {
+.ttllv.t1 {
   font-family: 'DM Serif Display', serif;
   text-align: center;
   font-size: 25px;
@@ -16,7 +16,7 @@
   text-transform: lowercase;
   padding-top: 20px;
 }
-.ttllv2 {
+.ttllv.t2 {
   font-family: 'Bringshoot';
   text-align: center;
   font-size: 25px;
@@ -27,7 +27,7 @@
   text-transform: lowercase;
   padding-top: 20px;
 }
-.ttllv3 {
+.ttllv.t3 {
   font-family: 'Thanthen';
   text-align: center;
   font-size: 25px;
