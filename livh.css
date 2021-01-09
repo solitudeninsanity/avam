@@ -16,6 +16,28 @@
   text-transform: lowercase;
   padding-top: 20px;
 }
+.ttllv2 {
+  font-family: 'Bringshoot';
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-style: italic;
+  font-weight: 550;
+  color: #8f2424bf;
+  text-transform: lowercase;
+  padding-top: 20px;
+}
+.ttllv3 {
+  font-family: 'Thanthen';
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-style: italic;
+  font-weight: 550;
+  color: #8f2424bf;
+  text-transform: lowercase;
+  padding-top: 20px;
+}
 .sbttllv {
   font: 'Trebuchet MS';
   text-align: center;
