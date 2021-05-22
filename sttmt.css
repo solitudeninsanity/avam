@@ -1,0 +1,25 @@
+.sttm {
+  width: 300px;
+  height: 230px;
+  border: 15px solid #111111;
+  outline: 1px solid #636363;
+  outline-offset: -13px;
+  margin: auto;
+  transition: ease 0.5s;
+   transition-delay: 0.5s;
+}
+.sttm .stt-1 {
+  width: 300px;
+  height: 230px;
+  overflow: hidden;
+  transition: ease 0.1s;
+  transition-delay: 0.1s;
+}
+.sttm:hover .stt-1 {
+  filter: grayscale(80%);
+  transition: ease 0.5s;
+}
+.sttm .stt-1:hover {
+  opacity: 1;
+  transition: ease 0.5s;
+}
