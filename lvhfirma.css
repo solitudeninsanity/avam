@@ -1,0 +1,31 @@
+#hayes {
+  width: 280px;
+  height: 200px;
+  outline-offset: -12px;
+  border: 15px solid #141414;
+  margin: auto;
+}
+.hayes-l {
+  float: left;
+  text-align: justify;
+  margin: 70px 45px 0;
+  font-size: 45px;
+  color: #d9d9d9;
+  text-shadow: 2px 1px #4a1515;
+  letter-spacing: -2px;
+  line-height: 58px;
+  text-transform: uppercase;
+  font-family: times new roman;
+  font-weight: 900;
+}
+.hayes-a {
+  font-size: 7.5px;
+  color: #dbdbdb;
+  text-align: justify;
+  font-family: calibri;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 100%;
+  width: 80px;
+  margin-left: 20px;
+}
