@@ -5,14 +5,14 @@
   margin: 0 auto;
 }
 .emntitle {
-  font-family: "Raustila Regular";
-  font-size: 40px;
+  font-family: "Galatia";
+  font-size: 58px;
   text-align: center;
   letter-spacing: 0px;
   text-transform: lowercase;
   font-weight: 400;
   color: #b5b5b5;
-  padding-top: 23px;
+  padding-top: 28px;
 }
 .esbtitle {
   font: "Calibri";
@@ -21,7 +21,7 @@
   letter-spacing: 1px;
   color: #a2a2a2;
   text-transform: uppercase;
-  margin-top: 13px;
+  margin-top: 10px;
 }
 .etxt {
   font: 12px 'Arial', sans-serif;
