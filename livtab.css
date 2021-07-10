@@ -8,7 +8,7 @@
 .ttllv {
   font-family: 'Playfair Display';
   text-align: center;
-  font-size: 30px;
+  font-size: 29px;
   letter-spacing: -2px;
   font-weight: 600;
   color: #8f2424bf;
@@ -22,7 +22,7 @@
   letter-spacing: 1px;
   color: #b3b3b3;
   text-transform: uppercase;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 .txtlv {
   font: 12px 'Arial', sans-serif;
