@@ -1,0 +1,37 @@
+.mmrslv {
+  width: 340px;
+  padding: 40px;
+  background-color: #0a0a0a;
+  border: 1px solid #0f0f0f;
+  margin: 0 auto;
+}
+.ttllv {
+  font-family: 'Playfair Display';
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: -2px;
+  font-weight: 600;
+  color: #8f2424bf;
+  text-transform: lowercase;
+  padding-top: 15px;
+}
+.sbttllv {
+  font: 'Trebuchet MS';
+  text-align: center;
+  font-size: 7.5px;
+  letter-spacing: 1px;
+  color: #b3b3b3;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+.txtlv {
+  font: 12px 'Arial', sans-serif;
+  text-align: justify; 
+  padding: 12px; 
+  color: #b5b5b5; 
+  background-color: #0a0a0a;
+  margin-top: 15px;
+}
+.txtlv strong {
+  color: #8f2424bf!important;
+}
