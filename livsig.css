@@ -1,0 +1,103 @@
+#hayes {
+  width: 300px;
+  height: 230px;
+  border: 14px solid #141414;
+  margin: auto;
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+
+#hayes .hayes-line {
+  position: absolute;
+  height: 230px;
+  width: 120px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: translateX(-110px);
+  transition: 0.5s;
+}
+
+#hayes .hayes-line .b1 {
+  margin: 0px auto;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#hayes .hayes-line .b1 #circle {
+  border-top: 2px solid #D9D9D9; 
+  border-bottom: 2px solid #D9D9D9; 
+  border-radius: 100%;
+  width: 60px; 
+  height: 60px;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hayes .hayes-line .b2 {
+  width: 80px;
+  color: #d9d9d9;
+  font-family: calibri;
+  font-size: 7px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 130%;
+  text-transform: uppercase;
+  margin-top: 13px;
+  font-weight: 800;
+  text-shadow: 1px 1px #4a151580;
+}
+
+#hayes i {
+  font-size: 25px;
+  position: absolute;
+  color: #D9D9D9;
+  text-shadow: 1px 1px #4a151580;
+}
+
+#hayes .hayes-letter {
+  float: left;
+  text-align: justify;
+  margin: 85px 43px 0;
+  font-size: 55px;
+  color: #d9d9d9;
+  text-shadow: 2px 1px #4a151580;
+  letter-spacing: -2px;
+  line-height: 58px;
+  text-transform: uppercase;
+  font-family: times new roman;
+  font-weight: 900;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  transition-delay: 0.6s;
+}
+
+@keyframes rotate{
+  from {transform: rotate(-360deg);}
+  to {transform: rotate(360deg);}}
+
+#hayes:hover .hayes-letter {
+  transform: translateX(-110px);
+  transition: 0.5s;
+}
+
+#hayes:hover .hayes-line {
+  transform: translateX(0px);
+  transition: 0.5s;
+  transition-delay: 0.6s;
+}
