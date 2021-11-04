@@ -1,6 +1,8 @@
 .bf1.livh {
   --color-acento: #8f2424bf;
   padding: 50px;
+  font-family: Arial;
+  font-size: 12px;
 }
 .bf1.livh strong {
   color: #8f2424bf;
