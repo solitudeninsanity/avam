@@ -59,14 +59,14 @@
   text-transform: uppercase;
   margin-top: 13px;
   font-weight: 800;
-  text-shadow: 1px 1px #4a151580;
+  text-shadow: 1px 1px #296469;
 }
 
 #hayes i {
   font-size: 25px;
   position: absolute;
   color: #D9D9D9;
-  text-shadow: 1px 1px #4a151580;
+  text-shadow: 1px 1px #296469;
 }
 
 #hayes .hayes-letter {
@@ -75,7 +75,7 @@
   margin: 85px 43px 0;
   font-size: 55px;
   color: #d9d9d9;
-  text-shadow: 2px 1px #4a151580;
+  text-shadow: 2px 1px #296469;
   letter-spacing: -2px;
   line-height: 58px;
   text-transform: uppercase;
