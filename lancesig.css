@@ -1,0 +1,91 @@
+.lancefirma {
+  width: 300px;
+  height: 220px;
+  margin: 0 auto;
+  border: 10px solid #242424;
+  overflow: hidden;
+  outline: 1px solid #848484;
+  outline-offset: -10px;
+  transition: 0.4s;
+}
+
+.lancefirma #bgimg {
+  background: var(--lancebackimg) no-repeat center;
+  width: 300px;
+  height: 220px;
+  background-position: top;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.lancefirma #bgimg #bgoverlay {
+  width: 300px;
+  height: 220px;
+  background-color: #495159;
+  mix-blend-mode: overlay;
+  backdrop-filter: grayscale(1) brightness(80%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.lancefirma #bgimg .lancequotes {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  font-family: inconsolata;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 210px;
+}
+
+.lancefirma #bgimg .lancequotes #quote1 {
+  letter-spacing: 1px;
+  width: 100px;
+  top: 170px;
+  left: 30px;
+  position: absolute;
+  text-align: left;
+  transition: 0.4s;
+}
+
+.lancefirma #bgimg .lancequotes #quote2 {
+  letter-spacing: 1px;
+  position: absolute;
+  transition: 0.4s;
+  bottom: -25px;
+  transition: 0.4s;
+}
+
+.lancefirma #bgimg .lancequotes #quote1 b,
+.lancefirma #bgimg .lancequotes #quote2 b {
+  color: #000;
+  background: #fff;
+  padding: 0px 2px;
+}
+
+.lancefirma:hover {
+  border: 10px solid #cccccc66;
+}
+
+.lancefirma:hover #bgimg {
+  background-position: bottom;
+}
+
+.lancefirma:hover #bgimg #bgoverlay {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.lancefirma:hover #bgimg .lancequotes #quote1 {
+  left: -100px;
+}
+
+.lancefirma:hover #bgimg .lancequotes #quote2 {
+  bottom: 15px;
+}
