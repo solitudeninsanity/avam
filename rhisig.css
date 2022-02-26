@@ -3,7 +3,7 @@
   height: 224px;
   box-sizing: border-box;
   margin: 16px auto;
-  outline: 8px solid #000;
+  outline: 10px solid #141414;
   border: 2px solid var(--rhiacccolor);
   overflow: hidden;
   position: relative;
